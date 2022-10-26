@@ -19,7 +19,7 @@ export const LoginModal = ({open, tutup, token, setToken}) => {
         );
         // console.log(res.data.data)
         localStorage.setItem("user", JSON.stringify(res.data.data));
-        localStorage.setItem("token", JSON.stringify(res.data.data.token));
+        localStorage.setItem("token", JSON.stringify(res.data.data.token)); 
         const user = JSON.parse(localStorage.getItem('user'))
         if(user.token){
           setToken(true)

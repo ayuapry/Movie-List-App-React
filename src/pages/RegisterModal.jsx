@@ -71,7 +71,7 @@ export const RegisterModal = ({visible, tutup, tokens, setToken}) => {
             </div>
         <form onSubmit={handleSubmit}>
         <div className="flex flex-col">
-        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-5 justify-between'>
+        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-2 justify-between'>
           <input
             type="text"
             value={firstName}
@@ -83,7 +83,7 @@ export const RegisterModal = ({visible, tutup, tokens, setToken}) => {
           />
           <AiOutlineUser size={20} className='mr-2' />
         </div>
-        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-5 justify-between'>
+        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-2 justify-between'>
           <input
             type="text"
             name='last_name'
@@ -109,7 +109,7 @@ export const RegisterModal = ({visible, tutup, tokens, setToken}) => {
           <AiOutlineMail size={20} className='mr-2' />
         </div>
         
-        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-5 justify-between'>
+        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-2 justify-between'>
           <input
             type="password"
             name='password'
@@ -119,7 +119,7 @@ export const RegisterModal = ({visible, tutup, tokens, setToken}) => {
           />
           <AiOutlineEyeInvisible size={20} className='mr-2' />
         </div>
-        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-5 justify-between'>
+        <div className='flex items-center border border-gray-400 p-2 rounded-full mb-2 justify-between'>
           <input
             type="password"
             name='password_confirmation'
